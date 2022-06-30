@@ -6,13 +6,20 @@ body {
       
       font-family: 'Inter', sans-serif;
       margin: 0;
-      background-color: #2a2c38 ;
+      background-color: #282D35;
 }
 
 .navItems--left{
+      padding-left: 20px;
       display: flex;
       align-items: center;
-      color:aqua
+      height: 30px;
+}
+
+.navItems--left > h1 {
+      font-size: 23px;
+      color: #61DAFB;
+      font-weight: 700;
 
 }
 
@@ -22,13 +29,44 @@ body {
       justify-content: space-between;
       align-items: center;
       height: 90px;
+      width: 550px;
+      background-color: #21222A;
+
 }
 .nav--logo{
-      width: 40px;
-      height: 40px;
-      margin-right: 5px;
+      width: 29px;
+      height: 29px;
+      margin: 7px;
 }
 
 .navItems{
-      font-size: 25px;
+      font-size: 16px;
+      padding-right: 20px;
+      line-height: 19px;
+      font-weight: 600;
+}
+
+.MainContent {
+      
+      color:white;
+      background-image: url("./images/BackgroundLogo.png");
+      background-repeat: no-repeat;
+      background-position: right 60%;
+      
+}
+
+.MainContent > h1 {
+      font-size: 39px;
+      font-weight: 700;
+      margin: 50px 0px 30px 25px;
+}
+
+.Facts > li::marker {
+      color: #61DAFB;
+      font-size: 27px;
+}
+
+.Facts > li {
+      margin-left: 30px;
+      padding-bottom: 10px;
 }
