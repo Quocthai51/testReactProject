@@ -47,11 +47,12 @@ body {
 }
 
 .MainContent {
-      
+
+      width: 550px;
       color:white;
       background-image: url("./images/BackgroundLogo.png");
       background-repeat: no-repeat;
-      background-position: right 60%;
+      background-position: right 75%;
       
 }
 
